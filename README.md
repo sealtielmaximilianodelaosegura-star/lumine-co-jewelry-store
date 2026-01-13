@@ -51,8 +51,8 @@ The website includes direct contact integration via WhatsApp, allowing potential
 
 You can view the live version here:
 
-👉 **[Live Demo](#)**  
-https://sealtielmaximilianodelaosegura-star.github.io/lumine-co-jewelry-store/
+👉 **https://sealtielmaximilianodelaosegura-star.github.io/lumine-co-jewelry-store/(#)**  
+
 
 ---
 
