@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUMINA & Moon. | Alta Joyería</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> 
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo" onclick="showSection('home')">LUMINA & CO.</div>
+        <nav>
+            <span onclick="showSection('home')">Inicio</span>
+            <span onclick="showSection('collection')">Colecciones</span>
+            <span onclick="showSection('about')">La Marca</span> </nav>
+        <div class="user-actions">
+            <span>🛒 <small id="cart-count">0</small></span>
+        </div>
+    </header>
+
+    <section id="home" class="view active">
+        <div class="hero">
+            <div class="hero-content">
+                <h2>Elegancia que trasciende</h2>
+                <button class="btn-gold" onclick="showSection('collection')">Ver Colección</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="collection" class="view hidden">
+        <div class="container">
+            <h2 class="section-title">Colección "Eternity"</h2>
+            <div class="product-grid">
+                <div class="product-card-mini" onclick="showSection('product-detail')">
+                    <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=500" alt="Anillo">
+                    <h3>Anillo Solitario</h3>
+                    <p class="price">$1,250.00</p>
+                    <button class="btn-text">Ver Pieza</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="view hidden">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1589905220818-d77983c2a3e5?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Taller de Joyería">
+                </div>
+                <div class="about-text">
+                    <h2 class="section-title" style="text-align: left;">El Arte de lo Eterno</h2>
+                    <p>En Lumina & Co., no solo vendemos joyas; creamos legados. Fundada en 1985 en un pequeño taller de Florencia, nuestra misión siempre ha sido fusionar la artesanía tradicional con el diseño contemporáneo.</p>
+                    
+                    <div class="values-list">
+                        <div class="value-item">
+                            <h4>🤲 Hecho a Mano</h4>
+                            <p>Cada pieza es forjada individualmente por maestros orfebres.</p>
+                        </div>
+                        <div class="value-item">
+                            <h4>🌿 Oro Ético</h4>
+                            <p>Solo utilizamos metales reciclados y diamantes libres de conflicto.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="product-detail" class="view hidden">
+        <div class="container">
+            <button class="back-btn" onclick="showSection('collection')">← Volver a la colección</button>
+            
+            <article class="product-full">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=800" alt="Anillo de Oro">
+                </div>
+                <div class="product-info">
+                    <span class="breadcrumb">Colección / Anillos</span>
+                    <h1>Anillo "Eternidad" Solitario</h1>
+                    <p class="price">$1,250.00 USD</p>
+                    <p class="stock-warning">⚡ Solo 3 piezas disponibles</p>
+                    
+                    <p class="description">Forjado a mano en oro amarillo de 18 kilates. Una pieza atemporal.</p>
+
+                    <ul class="product-specs">
+                        <li><span>💎 Material:</span> Oro Amarillo 18k</li>
+                        <li><span>⚖️ Peso:</span> 4.5 gramos</li>
+                        <li><span>📜 Certificado:</span> GIA Incluido</li>
+                        <li><span>🛡️ Garantía:</span> De por vida</li>
+                    </ul>
+                    
+                    <div class="action-buttons">
+                        <button class="btn-gold" id="add-btn" onclick="addToCart()">Añadir a la Bolsa</button>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <footer>
+        <div class="copyright">© 2026 Lumina & Co.</div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
