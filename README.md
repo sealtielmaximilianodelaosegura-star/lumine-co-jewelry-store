@@ -53,18 +53,12 @@ You can view the live version here:
 
 👉 **https://sealtielmaximilianodelaosegura-star.github.io/lumine-co-jewelry-store/**  
 
-
----
-
-## 📸 Preview
-
-*(Add screenshots of the homepage and product sections here)*
-
 ---
 
 ## 👤 Author
 
-**Front-End Developer**  
+**Maximiliano-web-solutions
+**  
 Focused on creating clean, functional, and business-ready web solutions.
 
 If you are interested in working together or adapting this project for a real business, feel free to reach out.
