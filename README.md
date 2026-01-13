@@ -57,8 +57,7 @@ You can view the live version here:
 
 ## 👤 Author
 
-**Maximiliano-web-solutions
-**  
+**Maximiliano-web-solutions**  
 Focused on creating clean, functional, and business-ready web solutions.
 
 If you are interested in working together or adapting this project for a real business, feel free to reach out.
